@@ -41,6 +41,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link2-virtual"/>
   <link name="link2">
     <inertial>
       <origin xyz="2.08166817117217e-17 1.07552855510562e-16 0.00100000000000001" rpy="0.0 -0.0 0.0"/>
@@ -61,6 +62,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link3-virtual"/>
   <link name="link3">
     <inertial>
       <origin xyz="2.08166817117217e-17 1.0842021724855e-16 0.000999999999999987" rpy="0.0 -0.0 0.0"/>
@@ -81,6 +83,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link4-virtual"/>
   <link name="link4">
     <inertial>
       <origin xyz="2.08166817117217e-17 1.07552855510562e-16 0.001" rpy="0.0 -0.0 0.0"/>
@@ -101,6 +104,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link5-virtual"/>
   <link name="link5">
     <inertial>
       <origin xyz="-0.001 5.98479599211998e-17 -6.93889390390723e-18" rpy="0.0 -0.0 0.0"/>
@@ -121,6 +125,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link6-virtual"/>
   <link name="link6">
     <inertial>
       <origin xyz="-0.000999999999999973 5.98479599211998e-17 -6.93889390390723e-18" rpy="0.0 -0.0 0.0"/>
@@ -141,6 +146,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link7-virtual"/>
   <link name="link7">
     <inertial>
       <origin xyz="-0.001 9.80118763926896e-17 -1.73472347597681e-17" rpy="0.0 -0.0 0.0"/>
@@ -161,6 +167,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link8-virtual"/>
   <link name="link8">
     <inertial>
       <origin xyz="-0.001 9.80118763926896e-17 -1.73472347597681e-17" rpy="0.0 -0.0 0.0"/>
@@ -181,6 +188,7 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
     </collision>
   </link>
+  <link name="link9-virtual"/>
   <link name="link9">
     <inertial>
       <origin xyz="-0.000999999999999945 9.80118763926896e-17 -1.73472347597681e-17" rpy="0.0 -0.0 0.0"/>
@@ -215,60 +223,116 @@
     <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
-  <joint name="joint2" type="continuous">
+  <joint name="joint2-virtual" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
     <parent link="link1"/>
+    <child link="link2-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint2" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link2-virtual"/>
     <child link="link2"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint3-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link2"/>
+    <child link="link3-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint3" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link2"/>
+    <parent link="link3-virtual"/>
     <child link="link3"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint4-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link3"/>
+    <child link="link4-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint4" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link3"/>
+    <parent link="link4-virtual"/>
     <child link="link4"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint5-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link4"/>
+    <child link="link5-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint5" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link4"/>
+    <parent link="link5-virtual"/>
     <child link="link5"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint6-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link5"/>
+    <child link="link6-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint6" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link5"/>
+    <parent link="link6-virtual"/>
     <child link="link6"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint7-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link6"/>
+    <child link="link7-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint7" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link6"/>
+    <parent link="link7-virtual"/>
     <child link="link7"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint8-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link7"/>
+    <child link="link8-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint8" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link7"/>
+    <parent link="link8-virtual"/>
     <child link="link8"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
+  </joint>
+  <joint name="joint9-virtual" type="continuous">
+    <limit effort="0.0" velocity="0.0"/>
+    <parent link="link8"/>
+    <child link="link9-virtual"/>
+    <axis xyz="0. 1. 0."/>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <joint name="joint9" type="continuous">
     <limit effort="0.0" velocity="0.0"/>
-    <parent link="link8"/>
+    <parent link="link9-virtual"/>
     <child link="link9"/>
-    <axis xyz="1. 0. 0."/>
+    <axis xyz="0. 0. 1."/>
     <origin xyz="0.03 0.0 0.0" rpy="0.0 -0.0 0.0"/>
   </joint>
   <material name="">
