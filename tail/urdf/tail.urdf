@@ -49,7 +49,7 @@
   </link>
   <joint
     name="joint1-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -59,6 +59,11 @@
       link="link1-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link1">
@@ -102,7 +107,7 @@
   </link>
   <joint
     name="joint1"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -112,13 +117,18 @@
       link="link1" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link2-virtual">
   </link>
   <joint
     name="joint2-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -128,6 +138,11 @@
       link="link2-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link2">
@@ -171,7 +186,7 @@
   </link>
   <joint
     name="joint2"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -181,13 +196,18 @@
       link="link2" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link3-virtual">
   </link>
   <joint
     name="joint3-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -197,6 +217,11 @@
       link="link3-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link3">
@@ -240,7 +265,7 @@
   </link>
   <joint
     name="joint3"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -250,13 +275,18 @@
       link="link3" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link4-virtual">
   </link>
   <joint
     name="joint4-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -266,6 +296,11 @@
       link="link4-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link4">
@@ -309,7 +344,7 @@
   </link>
   <joint
     name="joint4"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -319,13 +354,18 @@
       link="link4" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link5-virtual">
   </link>
   <joint
     name="joint5-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -335,6 +375,11 @@
       link="link5-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link5">
@@ -378,7 +423,7 @@
   </link>
   <joint
     name="joint5"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -388,13 +433,18 @@
       link="link5" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link6-virtual">
   </link>
   <joint
     name="joint6-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -404,6 +454,11 @@
       link="link6-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link6">
@@ -447,7 +502,7 @@
   </link>
   <joint
     name="joint6"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -457,13 +512,18 @@
       link="link6" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link7-virtual">
   </link>
   <joint
     name="joint7-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -473,6 +533,11 @@
       link="link7-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link7">
@@ -516,7 +581,7 @@
   </link>
   <joint
     name="joint7"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -526,13 +591,18 @@
       link="link7" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link8-virtual">
   </link>
   <joint
     name="joint8-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -542,6 +612,11 @@
       link="link8-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link8">
@@ -585,7 +660,7 @@
   </link>
   <joint
     name="joint8"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -595,13 +670,18 @@
       link="link8" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link9-virtual">
   </link>
   <joint
     name="joint9-virtual"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.0 0 0"
       rpy="0 0 0" />
@@ -611,6 +691,11 @@
       link="link9-virtual" />
     <axis
       xyz="0 1 0" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
   <link
     name="link9">
@@ -654,7 +739,7 @@
   </link>
   <joint
     name="joint9"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.03 0 0"
       rpy="0 0 0" />
@@ -664,5 +749,10 @@
       link="link9" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-0.78539816339"
+      upper="0.78539816339"
+      effort="30"
+      velocity="0.78539816339" />
   </joint>
 </robot>
