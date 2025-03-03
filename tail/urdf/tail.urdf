@@ -62,8 +62,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link1">
@@ -120,8 +120,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link2-virtual">
@@ -141,8 +141,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link2">
@@ -199,8 +199,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link3-virtual">
@@ -220,8 +220,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link3">
@@ -278,8 +278,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link4-virtual">
@@ -299,8 +299,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link4">
@@ -357,8 +357,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link5-virtual">
@@ -378,8 +378,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link5">
@@ -436,8 +436,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link6-virtual">
@@ -457,8 +457,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link6">
@@ -515,8 +515,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link7-virtual">
@@ -536,8 +536,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link7">
@@ -594,8 +594,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link8-virtual">
@@ -615,8 +615,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link8">
@@ -673,8 +673,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link9-virtual">
@@ -694,8 +694,8 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
   <link
     name="link9">
@@ -752,7 +752,7 @@
     <limit
       lower="-0.78539816339"
       upper="0.78539816339"
-      effort="30"
-      velocity="0.78539816339" />
+      effort="0.48"
+      velocity="2" />
   </joint>
 </robot>
