@@ -51,7 +51,7 @@
     name="joint1-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="base_link" />
@@ -109,7 +109,7 @@
     name="joint1"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link1-virtual" />
@@ -130,7 +130,7 @@
     name="joint2-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link1" />
@@ -188,7 +188,7 @@
     name="joint2"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link2-virtual" />
@@ -209,7 +209,7 @@
     name="joint3-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link2" />
@@ -267,7 +267,7 @@
     name="joint3"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link3-virtual" />
@@ -288,7 +288,7 @@
     name="joint4-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link3" />
@@ -346,7 +346,7 @@
     name="joint4"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link4-virtual" />
@@ -367,7 +367,7 @@
     name="joint5-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link4" />
@@ -425,7 +425,7 @@
     name="joint5"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link5-virtual" />
@@ -446,7 +446,7 @@
     name="joint6-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link5" />
@@ -504,7 +504,7 @@
     name="joint6"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link6-virtual" />
@@ -525,7 +525,7 @@
     name="joint7-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link6" />
@@ -583,7 +583,7 @@
     name="joint7"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link7-virtual" />
@@ -604,7 +604,7 @@
     name="joint8-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link7" />
@@ -662,7 +662,7 @@
     name="joint8"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link8-virtual" />
@@ -683,7 +683,7 @@
     name="joint9-virtual"
     type="revolute">
     <origin
-      xyz="0.0 0 0"
+      xyz="0 0 0"
       rpy="0 0 0" />
     <parent
       link="link8" />
@@ -741,7 +741,7 @@
     name="joint9"
     type="revolute">
     <origin
-      xyz="0.03 0 0"
+      xyz="0.03 0.0 0.0"
       rpy="0 0 0" />
     <parent
       link="link9-virtual" />

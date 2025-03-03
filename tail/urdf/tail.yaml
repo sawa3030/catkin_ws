@@ -1,0 +1,24 @@
+tail:
+ - joint1-virtual : joint1-virtual
+ - joint1 : joint1
+ - joint2-virtual : joint2-virtual
+ - joint2 : joint2
+ - joint3-virtual : joint3-virtual
+ - joint3 : joint3
+ - joint4-virtual : joint4-virtual
+ - joint4 : joint4
+ - joint5-virtual : joint5-virtual
+ - joint5 : joint5
+ - joint6-virtual : joint6-virtual
+ - joint6 : joint6
+ - joint7-virtual : joint7-virtual
+ - joint7 : joint7
+ - joint8-virtual : joint8-virtual
+ - joint8 : joint8
+ - joint9-virtual : joint9-virtual
+ - joint9 : joint9
+
+tail-end-coords:
+  translate : [0.0, 0.0, 0.0]
+  rotate : [0.0, 1.0, 0.0, 0.0]
+  parent : link9
